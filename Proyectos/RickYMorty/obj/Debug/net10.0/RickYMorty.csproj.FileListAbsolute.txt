@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\bin\Debug\net10.0\RickYMorty.exe
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\bin\Debug\net10.0\RickYMorty.deps.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\bin\Debug\net10.0\RickYMorty.runtimeconfig.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\bin\Debug\net10.0\RickYMorty.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\bin\Debug\net10.0\RickYMorty.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.sourcelink.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\refint\RickYMorty.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\RickYMorty.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\RickYMorty\obj\Debug\net10.0\ref\RickYMorty.dll
