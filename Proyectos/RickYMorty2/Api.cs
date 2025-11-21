@@ -9,7 +9,7 @@ static class Api
 {
     private static readonly HttpClient client = new HttpClient();
 
-    public static async Task<JsonDocument?> GetCharacterAsync(string name)
+    public static async Task<Personaje?> GetCharacterAsync(string name)
     {
         try
         {
@@ -23,7 +23,7 @@ static class Api
             
             // deserialize lo convierte en objeto
             
-            var content=JsonSerialize.Deserialize<PersonajesGuardados>(contentString);
+            var content=JsonSerializer.Deserialize<Personaje>(contentString);
             return content;
         }
         catch

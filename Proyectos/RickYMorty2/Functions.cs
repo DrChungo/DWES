@@ -60,48 +60,26 @@ namespace RickApp
         private static async Task BuscarYGuardarPersonaje()
         {
             Console.Write("Introduce el nombre del personaje: ");
-            string? nombre = Console.ReadLine();
+            string? nombreUser = Console.ReadLine();
 
-            if (string.IsNullOrWhiteSpace(nombre))
+            if (string.IsNullOrWhiteSpace(nombreUser))
             {
                 Console.WriteLine("Nombre vacío.");
                 return;
             }
 
             // Llama a la API para obtener datos del personaje
-            var json = await Api.GetCharacterAsync(nombre);
+            var content = await Api.GetCharacterAsync(nombreUser);
+           string nombre2= content.Nombre;
+            
 
-            if (json == null)
+            if (content == null)
             {
                 Console.WriteLine("Personaje no encontrado.");
                 return;
             }
 
-            using (json)
-            {
-                JsonElement root = json.RootElement;
-
-                JsonElement results = root.GetProperty("results");
-
-                if (results.GetArrayLength() == 0)
-                {
-                    Console.WriteLine("Personaje no encontrado.");
-                    return;
-                }
-
-                JsonElement pj = results[0];
-
-                string nombreP = pj.GetProperty("name").GetString() ?? "Desconocido";
-                string estado = pj.GetProperty("status").GetString() ?? "Unknown";
-                string especie = pj.GetProperty("species").GetString() ?? "Unknown";
-                string genero = pj.GetProperty("gender").GetString() ?? "Unknown";
-
-                Console.WriteLine($"Nombre: {nombreP}");
-                Console.WriteLine($"Estado: {estado}");
-                Console.WriteLine($"Especie: {especie}");
-                Console.WriteLine($"Género: {genero}");
-                Console.WriteLine();
-
+        
                 Console.Write("¿Quieres guardarlo? (s/n): ");
                 string? resp = Console.ReadLine()?.Trim().ToLower();
 
@@ -121,8 +99,8 @@ namespace RickApp
                 {
                     Console.WriteLine("No guardado.");
                 }
-            }
-        }
+            
+        
 
         private static void ListarPersonajes()
         {
