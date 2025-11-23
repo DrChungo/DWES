@@ -1,2 +1,7 @@
 <Solution>
+  <Folder Name="/Proyectos/">
+    <Project Path="Proyectos/Animales/Animales.csproj" />
+    <Project Path="Proyectos/RickYMorty/RickYMorty.csproj" />
+  </Folder>
+  <Project Path="Animales/Animales.csproj" />
 </Solution>
