@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using RickYmortyApi;
+﻿
 using RickYmortyApi.Services;
 using RickYmortyApi.Functions;
 using RickYmortyApi.Models;
