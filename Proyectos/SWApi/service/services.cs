@@ -3,21 +3,21 @@ using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using <<<CAMBIAR: NAMESPACE >>>;
+using SWApi;
 
-namespace <<<CAMBIAR: NAMESPACE >>>.Services
+namespace SWApi.Services
 {
     public class ApiService
     {
         private readonly HttpClient client = new HttpClient
         {
-            BaseAddress = new Uri("<<<CAMBIAR: URL_BASE_API (ej: https://rickandmortyapi.com) >>>")
+            BaseAddress = new Uri("https://swapi.dev")
         };
 
         public async Task<SavedItem?> GetItemAsync(string parameter)
         {
             // Ejemplo Rick&Morty: /api/character/?name={nombre}
-            string endpoint = $"<<<CAMBIAR: ENDPOINT CON {parameter.ToLower()} >>>";
+            string endpoint = $"/api/starships/?search={parameter.ToLower()}";
 
             HttpResponseMessage response = await client.GetAsync(endpoint);
 
@@ -31,15 +31,16 @@ namespace <<<CAMBIAR: NAMESPACE >>>.Services
             if (apiResponse == null || apiResponse.Results == null || apiResponse.Results.Count == 0)
                 return null;
 
-//cremos el  objeto para luego guardarlo
-            Character character = apiResponse.Results.First();
+            //cremos el  objeto para luego guardarlo
+            Starships starships = apiResponse.Results.First();
 
             return new SavedItem
             {
-                Name   = character.Name,
-                State  = character.Status,
-                Specie = character.Species,
-                Gender = character.Gender
+                Name   = starships.Name,
+                Model  = starships.Model,
+                Manufacturer = starships.Manufacturer,
+                Speed = starships.Speed,
+                Crew= starships.Crew
             };
         }
     }

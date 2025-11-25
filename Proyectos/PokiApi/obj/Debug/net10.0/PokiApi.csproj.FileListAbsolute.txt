@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\bin\Debug\net10.0\PokiApi.exe
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\bin\Debug\net10.0\PokiApi.deps.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\bin\Debug\net10.0\PokiApi.runtimeconfig.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\bin\Debug\net10.0\PokiApi.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\bin\Debug\net10.0\PokiApi.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.sourcelink.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\refint\PokiApi.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\PokiApi.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\PokiApi\obj\Debug\net10.0\ref\PokiApi.dll

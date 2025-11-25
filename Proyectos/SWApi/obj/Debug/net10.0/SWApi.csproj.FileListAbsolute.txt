@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.sourcelink.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\bin\Debug\net10.0\SWApi.exe
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\bin\Debug\net10.0\SWApi.deps.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\bin\Debug\net10.0\SWApi.runtimeconfig.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\bin\Debug\net10.0\SWApi.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\bin\Debug\net10.0\SWApi.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\refint\SWApi.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\SWApi.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\SWApi\obj\Debug\net10.0\ref\SWApi.dll

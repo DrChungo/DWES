@@ -3,6 +3,12 @@ using System.Text.Json.Serialization;
 namespace <<<CAMBIAR: NAMESPACE >>>
 {
     // JSON raíz: por ejemplo { "results": [ {...}, {...} ] }
+
+
+    //Llamar directramete en el que queremos empezar
+
+    //Cuando el objeto del Json tiene [ ] usamos list
+    //Si solo tiene { } usamos un ojeto Ejemplo en poke api Info
     public class ApiResponse
     {
         [JsonPropertyName("results")]
