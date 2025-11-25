@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using SWApi;
 using SWApi.Services;
+using System.IO;
+using System.Text.Json;
+
 
 namespace SWApi.Functions
 {
@@ -10,7 +13,7 @@ namespace SWApi.Functions
     {
         public static async Task SearchItem(ApiService service, List<SavedItem> savedList)
         {
-            Console.Write("Introduce <<<CAMBIAR: TEXTO (ej: nombre del personaje) >>>: ");
+            Console.Write("Introduce el nombre de la nave");
             string input = Console.ReadLine()?.Trim() ?? "";
 
             if (string.IsNullOrWhiteSpace(input))
@@ -29,10 +32,10 @@ namespace SWApi.Functions
 
             Console.WriteLine("=== RESULTADO ===");
             Console.WriteLine($"Nombre : {item.Name}");
-            Console.WriteLine($"Modelo : {item.Model}");
-            Console.WriteLine($"Fabricante: {item.Manufacturer}");
-            Console.WriteLine($"Velocidad maxima: {item.Speed}");
-             Console.WriteLine($"Velocidad maxima: {item.Crew}");
+            Console.WriteLine($"Model : {item.Model}");
+            Console.WriteLine($"fabricantre: {item.Manufacturer}");
+            Console.WriteLine($"Velocidad: {item.Speed}");
+            Console.WriteLine($"Escudron: {item.Crew}");
             Console.WriteLine();
 
             Console.Write("¿Guardar en la lista? (s/n): ");
@@ -61,8 +64,20 @@ namespace SWApi.Functions
             for (int i = 0; i < savedList.Count; i++)
             {
                 var p = savedList[i];
-                Console.WriteLine($"{i + 1}. {p.Name} | {p.Model} | {p.Manufacturer} | {p.Speed}| {p.Crew}");
+                Console.WriteLine($"{i + 1}. {p.Name} | {p.Model} | {p.Manufacturer} | {p.Speed} | {p.Crew}");
             }
+        }
+
+        public static void SaveListToJson(List<SavedItem> list)
+        {
+            string json = JsonSerializer.Serialize(list, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
+
+            File.WriteAllText("naves.json", json);
+
+            Console.WriteLine("Archivo JSON guardado correctamente.");
         }
     }
 }

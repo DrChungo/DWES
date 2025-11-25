@@ -8,6 +8,7 @@ namespace SWApi
     //Llamar directramete en el que queremos empezar
 
     //Cuando el objeto del Json tiene [ ] usamos list
+
     //Si solo tiene { } usamos un ojeto Ejemplo en poke api Info
     public class ApiResponse
     {
@@ -29,7 +30,7 @@ namespace SWApi
 
         [JsonPropertyName("max_atmosphering_speed")]
         public string Speed { get; set; } = "";
-      
+
         [JsonPropertyName("crew")]
         public string Crew { get; set; } = "";
     }

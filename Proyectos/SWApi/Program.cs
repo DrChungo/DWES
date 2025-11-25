@@ -18,10 +18,11 @@ namespace SWApi
 
             do
             {
-                Console.WriteLine("Gestor de Naves Star Wars");
+                Console.WriteLine("Gestor de naves ");
                 Console.WriteLine("1. Buscar");
                 Console.WriteLine("2. Listar guardados");
-                Console.WriteLine("3. Salir");
+                System.Console.WriteLine("3.Guardar en un Json");
+                Console.WriteLine("0. Salir");
                 Console.Write("Elige una opción: ");
                 opcion = Console.ReadLine()?.Trim() ?? "";
                 Console.WriteLine();
@@ -29,14 +30,19 @@ namespace SWApi
                 switch (opcion)
                 {
                     case "1":
-                        await Functions.Functions.SearchItem(service, savedList);
+                        await  Functions.Functions.SearchItem(service, savedList);
                         break;
 
                     case "2":
-                       Functions.Functions.ListItems(savedList);
+                        Functions.Functions.ListItems(savedList);
                         break;
 
                     case "3":
+
+                    Functions.Functions.SaveListToJson(savedList);
+                    break;
+
+                    case "0":
                         Console.WriteLine("Saliendo...");
                         break;
 
@@ -47,7 +53,7 @@ namespace SWApi
 
                 Console.WriteLine();
             }
-            while (opcion != "3");
+            while (opcion != "0");
         }
     }
 }

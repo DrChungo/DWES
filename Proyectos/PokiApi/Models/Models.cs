@@ -33,9 +33,7 @@ namespace PokeApi
 
         [JsonPropertyName("type")]
         public PokemonTypeInfo Type { get; set; } = new();
-
-
-
+      
     }
     public class PokemonTypeInfo
     {
