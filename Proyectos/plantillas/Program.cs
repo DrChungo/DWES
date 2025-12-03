@@ -30,7 +30,7 @@ namespace SWApi
                 switch (opcion)
                 {
                     case "1":
-                        await  Functions.Functions.SearchItem(service, savedList);
+                        await  Functions.SearchItem(service, savedList);
                         break;
 
                     case "2":

@@ -1,0 +1,736 @@
+[
+    {
+        "id": 1,
+        "title": "I wanna be your girlfriend (Toxic Machinery Remix)",
+        "artist": {
+            "name": "Girl in Red",
+            "country": "Norway",
+            "activeSince": 2017
+        },
+        "url": "https://www.youtube.com/watch?v=0fGJ5_yo9eU",
+        "bpm": 158,
+        "subgenres": [
+            "hard techno",
+            "emotional rave"
+        ],
+        "releaseInfo": {
+            "label": "Toxic Machinery Records",
+            "year": 2024
+        },
+        "tags": [
+            "emotional",
+            "vocal",
+            "melodic",
+            "hard"
+        ],
+        "mixInfo": {
+            "type": "remix",
+            "remixer": "Toxic Machinery"
+        },
+        "mainDrop": 80,
+        "key": "D minor"
+    },
+    {
+        "id": 2,
+        "title": "Toter Schmetterling",
+        "artist": {
+            "name": "KlangKuenstler",
+            "country": "Germany",
+            "activeSince": 2012
+        },
+        "url": "https://www.youtube.com/watch?v=Rg2fwxAyadE",
+        "bpm": 156,
+        "subgenres": [
+            "industrial techno",
+            "hard techno"
+        ],
+        "releaseInfo": {
+            "label": "Outworld",
+            "year": 2024
+        },
+        "tags": [
+            "dark",
+            "industrial",
+            "berlin",
+            "anthem"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 95,
+        "key": "F# minor"
+    },
+    {
+        "id": 3,
+        "title": "Absolute In Doubt (Nyctonian Tech Pop Remix)[FREE DOWNLOAD]",
+        "artist": {
+            "name": "Lil Peep x Wicca Phase Springs Eternal",
+            "country": "USA",
+            "activeSince": 2015
+        },
+        "url": "https://www.youtube.com/watch?v=SLDKQBzFwIA",
+        "bpm": 138,
+        "subgenres": [
+            "techno",
+            "tech pop",
+            "dark pop"
+        ],
+        "releaseInfo": {
+            "label": "Nyctonian",
+            "year": 2023
+        },
+        "tags": [
+            "vocal",
+            "dark",
+            "emotional",
+            "melodic"
+        ],
+        "mixInfo": {
+            "type": "remix",
+            "remixer": "Nyctonian"
+        },
+        "mainDrop": 82,
+        "key": "F minor"
+    },
+    {
+        "id": 4,
+        "title": "Join Me KSN (Schranz Rework Hard Techno Schranz Trance)",
+        "artist": {
+            "name": "LIGHTFORCE",
+            "country": "Germany",
+            "activeSince": 2000
+        },
+        "url": "https://www.youtube.com/watch?v=p2Mf9EPNs1c",
+        "bpm": 155,
+        "subgenres": [
+            "schranz",
+            "hard techno",
+            "trance"
+        ],
+        "releaseInfo": {
+            "label": "KSN Reworks",
+            "year": 2025
+        },
+        "tags": [
+            "schranz",
+            "anthem",
+            "trancy",
+            "oldschool vibe"
+        ],
+        "mixInfo": {
+            "type": "remix",
+            "remixer": "KSN"
+        },
+        "mainDrop": 100,
+        "key": "A minor"
+    },
+    {
+        "id": 5,
+        "title": "Witchblades (Techno Bootleg)",
+        "artist": {
+            "name": "Lil Peep & Lil Tracy",
+            "country": "USA",
+            "activeSince": 2014
+        },
+        "url": "https://www.youtube.com/watch?v=LOv2mWURsPw",
+        "bpm": 155,
+        "subgenres": [
+            "hard techno",
+            "bootleg",
+            "emotional techno"
+        ],
+        "releaseInfo": {
+            "label": "Bootleg Unofficial",
+            "year": 2023
+        },
+        "tags": [
+            "vocal",
+            "emo-techno",
+            "bootleg",
+            "melodic"
+        ],
+        "mixInfo": {
+            "type": "bootleg",
+            "remixer": "Unknown"
+        },
+        "mainDrop": 72,
+        "key": "B minor"
+    },
+    {
+        "id": 6,
+        "title": "Embrace The Pain",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=q-p0F-deFQQ",
+        "bpm": 155,
+        "subgenres": [
+            "hard techno",
+            "french rave"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers Records",
+            "year": 2024
+        },
+        "tags": [
+            "anthem",
+            "emotional",
+            "rave",
+            "uplifting"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 78,
+        "key": "A minor"
+    },
+    {
+        "id": 7,
+        "title": "Numbers Society",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=ykGJ5wjkAWY",
+        "bpm": 152,
+        "subgenres": [
+            "hard techno",
+            "rave"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers",
+            "year": 2024
+        },
+        "tags": [
+            "anthem",
+            "energetic",
+            "melodic"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 74,
+        "key": "G minor"
+    },
+    {
+        "id": 8,
+        "title": "Miss The Rave",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=1xHm0gLZCDM",
+        "bpm": 154,
+        "subgenres": [
+            "hard techno",
+            "rave",
+            "emotional techno"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers",
+            "year": 2024
+        },
+        "tags": [
+            "nostalgic",
+            "vocal-chop",
+            "rave"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 76,
+        "key": "F# minor"
+    },
+    {
+        "id": 9,
+        "title": "Rage Every Night",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=kDUmkr42w48",
+        "bpm": 158,
+        "subgenres": [
+            "industrial techno",
+            "hard techno"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers",
+            "year": 2024
+        },
+        "tags": [
+            "aggressive",
+            "industrial",
+            "rage",
+            "dark"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 88,
+        "key": "G# minor"
+    },
+    {
+        "id": 10,
+        "title": "Dying For You",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=bLBgseRuCBY",
+        "bpm": 150,
+        "subgenres": [
+            "hard techno",
+            "emotional rave"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers",
+            "year": 2023
+        },
+        "tags": [
+            "emotional",
+            "vocal",
+            "anthem"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 70,
+        "key": "E minor"
+    },
+    {
+        "id": 11,
+        "title": "Listen To Your Heart",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=nwELqkDEZWo",
+        "bpm": 152,
+        "subgenres": [
+            "hard techno",
+            "melodic rave"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers",
+            "year": 2023
+        },
+        "tags": [
+            "emotional",
+            "rave",
+            "anthemic"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 80,
+        "key": "D minor"
+    },
+    {
+        "id": 12,
+        "title": "Spotlight (Bootleg)",
+        "artist": {
+            "name": "Geehee X Lil Peep",
+            "country": "USA",
+            "activeSince": 2020
+        },
+        "url": "https://www.youtube.com/watch?v=yCl2TfuJp6w",
+        "bpm": 150,
+        "subgenres": [
+            "hard techno",
+            "bootleg",
+            "emo-techno"
+        ],
+        "releaseInfo": {
+            "label": "Bootleg Unofficial",
+            "year": 2023
+        },
+        "tags": [
+            "vocal",
+            "bootleg",
+            "emotional",
+            "dark rave"
+        ],
+        "mixInfo": {
+            "type": "bootleg",
+            "remixer": "Geehee"
+        },
+        "mainDrop": 78,
+        "key": "C# minor"
+    },
+    {
+        "id": 13,
+        "title": "Guts",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=Ay__X7Gh4G0",
+        "bpm": 154,
+        "subgenres": [
+            "hard techno",
+            "rave"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers",
+            "year": 2024
+        },
+        "tags": [
+            "rave",
+            "anthem",
+            "driving"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 82,
+        "key": "F minor"
+    },
+    {
+        "id": 14,
+        "title": "Arkade",
+        "artist": {
+            "name": "GNRØ",
+            "country": "Norway",
+            "activeSince": 2021
+        },
+        "url": "https://www.youtube.com/watch?v=tWyWoyPRO6w",
+        "bpm": 157,
+        "subgenres": [
+            "hard techno",
+            "rave"
+        ],
+        "releaseInfo": {
+            "label": "GNRØ Records",
+            "year": 2023
+        },
+        "tags": [
+            "anthem",
+            "energetic",
+            "festival"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 90,
+        "key": "G minor"
+    },
+    {
+        "id": 15,
+        "title": "HIDEAWAY",
+        "artist": {
+            "name": "Bluerredmovement / Zentryc",
+            "country": "Spain",
+            "activeSince": 2020
+        },
+        "url": "https://www.youtube.com/watch?v=FGFnk6iqgo0",
+        "bpm": 150,
+        "subgenres": [
+            "melodic techno",
+            "hard techno"
+        ],
+        "releaseInfo": {
+            "label": "Underground Division",
+            "year": 2023
+        },
+        "tags": [
+            "melodic",
+            "euphoric",
+            "vocal"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 96,
+        "key": "E minor"
+    },
+    {
+        "id": 16,
+        "title": "Falling Down",
+        "artist": {
+            "name": "GNRØ",
+            "country": "Norway",
+            "activeSince": 2021
+        },
+        "url": "https://www.youtube.com/watch?v=uhUXf9x6raw",
+        "bpm": 156,
+        "subgenres": [
+            "hard techno",
+            "emotional rave"
+        ],
+        "releaseInfo": {
+            "label": "GNRØ Records",
+            "year": 2023
+        },
+        "tags": [
+            "emotional",
+            "rave",
+            "uplifting"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 84,
+        "key": "D# minor"
+    },
+    {
+        "id": 17,
+        "title": "Screeches From The Underground",
+        "artist": {
+            "name": "Low E",
+            "country": "Netherlands",
+            "activeSince": 2018
+        },
+        "url": "https://www.youtube.com/watch?v=1yD004mfIW0",
+        "bpm": 160,
+        "subgenres": [
+            "industrial techno",
+            "schranz"
+        ],
+        "releaseInfo": {
+            "label": "Subground Assault",
+            "year": 2022
+        },
+        "tags": [
+            "industrial",
+            "distorted",
+            "dark",
+            "warehouse"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 88,
+        "key": "F minor"
+    },
+    {
+        "id": 18,
+        "title": "Fallin' in Love",
+        "artist": {
+            "name": "Sikoti",
+            "country": "UK",
+            "activeSince": 2019
+        },
+        "url": "https://www.youtube.com/watch?v=04zd7A15gHw",
+        "bpm": 152,
+        "subgenres": [
+            "hard techno",
+            "trance techno"
+        ],
+        "releaseInfo": {
+            "label": "Sikoti Music",
+            "year": 2023
+        },
+        "tags": [
+            "euphoric",
+            "vocal",
+            "trancy"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 86,
+        "key": "A minor"
+    },
+    {
+        "id": 19,
+        "title": "voices in my head",
+        "artist": {
+            "name": "DJ UNIVXRSEL",
+            "country": "Japan",
+            "activeSince": 2020
+        },
+        "url": "https://www.youtube.com/watch?v=GUlh2_d31ZM",
+        "bpm": 152,
+        "subgenres": [
+            "hard techno",
+            "hypnotic techno"
+        ],
+        "releaseInfo": {
+            "label": "UNIVXRSEL",
+            "year": 2023
+        },
+        "tags": [
+            "hypnotic",
+            "dark",
+            "mental"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 82,
+        "key": "C minor"
+    },
+    {
+        "id": 20,
+        "title": "KURAYAMI NO NAKA",
+        "artist": {
+            "name": "DJ UNIVXRSEL",
+            "country": "Japan",
+            "activeSince": 2020
+        },
+        "url": "https://www.youtube.com/watch?v=ULc6V-iqFec",
+        "bpm": 154,
+        "subgenres": [
+            "hard techno",
+            "industrial techno"
+        ],
+        "releaseInfo": {
+            "label": "UNIVXRSEL",
+            "year": 2023
+        },
+        "tags": [
+            "dark",
+            "japanese influence",
+            "rave"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 90,
+        "key": "G minor"
+    },
+    {
+        "id": 21,
+        "title": "Euphoric Night",
+        "artist": {
+            "name": "Onlynumbers",
+            "country": "France",
+            "activeSince": 2022
+        },
+        "url": "https://www.youtube.com/watch?v=eGEysZV8Uvw",
+        "bpm": 153,
+        "subgenres": [
+            "hard techno",
+            "euphoric rave"
+        ],
+        "releaseInfo": {
+            "label": "Onlynumbers",
+            "year": 2024
+        },
+        "tags": [
+            "euphoric",
+            "anthem",
+            "festival"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 88,
+        "key": "E minor"
+    },
+    {
+        "id": 22,
+        "title": "The Real Schranz (Part 1)",
+        "artist": {
+            "name": "Chris Liebing",
+            "country": "Germany",
+            "activeSince": 1990
+        },
+        "url": "https://www.youtube.com/watch?v=B84Kd5i7vic",
+        "bpm": 144,
+        "subgenres": [
+            "schranz",
+            "techno"
+        ],
+        "releaseInfo": {
+            "label": "CLR",
+            "year": 2001
+        },
+        "tags": [
+            "classic",
+            "schranz",
+            "oldschool"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 110,
+        "key": "F minor"
+    },
+    {
+        "id": 23,
+        "title": "The Real Schranz part 1 - B side",
+        "artist": {
+            "name": "Chris Liebing",
+            "country": "Germany",
+            "activeSince": 1990
+        },
+        "url": "https://www.youtube.com/watch?v=IFt80aVloiY",
+        "bpm": 144,
+        "subgenres": [
+            "schranz",
+            "techno"
+        ],
+        "releaseInfo": {
+            "label": "CLR",
+            "year": 2001
+        },
+        "tags": [
+            "classic",
+            "b-side",
+            "oldschool"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 96,
+        "key": "F minor"
+    },
+    {
+        "id": 24,
+        "title": "Alles Zerfällt",
+        "artist": {
+            "name": "Ben Techy",
+            "country": "Germany",
+            "activeSince": 2019
+        },
+        "url": "https://www.youtube.com/watch?v=IE6AZylmynM",
+        "bpm": 158,
+        "subgenres": [
+            "industrial techno",
+            "hard techno"
+        ],
+        "releaseInfo": {
+            "label": "Techy Records",
+            "year": 2023
+        },
+        "tags": [
+            "dark",
+            "distorted",
+            "warehouse"
+        ],
+        "mixInfo": {
+            "type": "original",
+            "remixer": null
+        },
+        "mainDrop": 92,
+        "key": "G# minor"
+    }
+]

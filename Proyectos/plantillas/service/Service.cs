@@ -32,7 +32,8 @@ namespace <<<CAMBIAR: NAMESPACE >>>.Services
             if (apiResponse == null || apiResponse.Results == null || apiResponse.Results.Count == 0)
                 return null;
 
-//cremos el  objeto para luego guardarlo
+            
+            //cremos el  objeto para luego guardarlo
             Character character = apiResponse.Results.First();
 
             return new SavedItem

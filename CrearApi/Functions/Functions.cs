@@ -5,10 +5,10 @@ using System.IO;
 using System.Text.Json;
 
 
-using <<< CAMBIAR: NAMESPACE >>>;
-using <<< CAMBIAR: NAMESPACE >>>.Services;
+using TechnoApi;
+using TechnoApi.Services;
 
-namespace <<<CAMBIAR: NAMESPACE >>>.Functions
+namespace TechnoApi.Functions
 {
     public static class Functions
 {
