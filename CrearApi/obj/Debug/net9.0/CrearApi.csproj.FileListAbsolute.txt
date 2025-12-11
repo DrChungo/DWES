@@ -13,3 +13,18 @@ C:\Users\Usuario\Desktop\clase\2 DAW\DWES\CrearApi\obj\Debug\net9.0\refint\Crear
 C:\Users\Usuario\Desktop\clase\2 DAW\DWES\CrearApi\obj\Debug\net9.0\CrearApi.pdb
 C:\Users\Usuario\Desktop\clase\2 DAW\DWES\CrearApi\obj\Debug\net9.0\CrearApi.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\clase\2 DAW\DWES\CrearApi\obj\Debug\net9.0\ref\CrearApi.dll
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\bin\Debug\net9.0\CrearApi.exe
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\bin\Debug\net9.0\CrearApi.deps.json
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\bin\Debug\net9.0\CrearApi.runtimeconfig.json
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\bin\Debug\net9.0\CrearApi.dll
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\bin\Debug\net9.0\CrearApi.pdb
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.AssemblyInfoInputs.cache
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.AssemblyInfo.cs
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.csproj.CoreCompileInputs.cache
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.sourcelink.json
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.dll
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\refint\CrearApi.dll
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.pdb
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\CrearApi.genruntimeconfig.cache
+C:\Users\Emiliano\Desktop\vsCode\DWES\Proyectos\DWES\CrearApi\obj\Debug\net9.0\ref\CrearApi.dll
