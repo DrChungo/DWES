@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace CrearApi.Services
             BaseAddress = new Uri("http://localhost:3000") // URL base de tu API Node
         };
 
-         public async Task<List<Track>?> GetAllTracksAsync()
+        public async Task<List<Track>?> GetAllTracksAsync()
         {
             string endpoint = "/tracks";
 
@@ -31,6 +32,18 @@ namespace CrearApi.Services
                 new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
             return tracks;
+        }
+
+        public async Task<bool> AddTrackAsync(Track newTrack)
+        {
+            string endpoint = "/tracks";
+
+            var json = JsonSerializer.Serialize(newTrack);
+            var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await client.PostAsync(endpoint, httpContent);
+
+            return response.IsSuccessStatusCode;
         }
     }
 }

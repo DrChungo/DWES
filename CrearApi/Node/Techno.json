@@ -732,5 +732,32 @@
         },
         "mainDrop": 92,
         "key": "G# minor"
+    },
+    {
+        "Id": 25,
+        "Title": "Alfon Sopu Tovago",
+        "Artist": {
+            "Name": "DJ Padilla Padilla Padilla Padilla Padilla",
+            "Country": "Andalucia",
+            "ActiveSince": 1939
+        },
+        "Url": "https://www.youtube.com/shorts/pC02O3VJhIc",
+        "Bpm": 0,
+        "Subgenres": [
+            "Hit ler Thech"
+        ],
+        "ReleaseInfo": {
+            "Label": "Procrastinador Lbl",
+            "Year": 1945
+        },
+        "Tags": [
+            "Fumapetas"
+        ],
+        "MixInfo": {
+            "Type": "original",
+            "Remixer": null
+        },
+        "MainDrop": 0,
+        "Key": "Tocada de huevos"
     }
 ]

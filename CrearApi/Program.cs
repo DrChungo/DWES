@@ -28,7 +28,7 @@ namespace CrearApi
                         break;
 
                     case "2":
-                        FunctionsAdd.AddSong();
+                       await FunctionsAdd.AddSongAsync();
                         break;
 
                     case "0":
