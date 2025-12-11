@@ -1,0 +1,9 @@
+@echo off
+echo Iniciando API Node en segundo plano...
+start /B node Node/api.js
+
+echo Iniciando .NET...
+dotnet run
+
+echo Cerrando Node...
+taskkill /IM node.exe /F >nul 2>&1
