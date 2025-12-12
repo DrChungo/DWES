@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using CrearApi.Models;
 using CrearApi.Services;
-    
+
 namespace CrearApi.Functions
 {
     public static class GameFunctions
@@ -24,7 +24,7 @@ namespace CrearApi.Functions
                 return;
             }
 
-            // Canción aleatoria del JSON
+            // Canción aleatoria del JSON, no se repite
             var track = tracks[_rng.Next(tracks.Count)];
 
             Console.Clear();
@@ -46,24 +46,30 @@ namespace CrearApi.Functions
             ShowResult(track, score);
         }
 
-        // ============ PREGUNTAS (solo I/O + llamada a validaciones) ============
+        
 
         private static int AskSubgenres(Track track)
         {
             int subgenreCount = track.Subgenres.Count;
 
             Console.WriteLine($"\nLa canción tiene {subgenreCount} subgénero(s).");
-            Console.WriteLine($"Escribe exactamente {subgenreCount}, separados por coma:");
 
-            string? userInput = Console.ReadLine();
+            List<string> userSubgenres = new List<string>();
 
-            var userSubgenres = userInput?
-                .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
-                .Select(s => s.ToLower())
-                .ToList() ?? new List<string>();
+            for (int i = 0; i < subgenreCount; i++)
+            {
+                Console.Write($"Género número {i + 1}: ");
+                string? input = Console.ReadLine()?.Trim().ToLower();
+
+                if (!string.IsNullOrWhiteSpace(input))
+                    userSubgenres.Add(input);
+                else
+                    userSubgenres.Add(string.Empty);
+            }
 
             return GameValidations.CalculateSubgenreScore(track, userSubgenres);
         }
+
 
         private static int AskBpm(Track track)
         {
@@ -103,22 +109,26 @@ namespace CrearApi.Functions
 
         // ================= RESULTADO =================
 
-        private static void ShowResult(Track track, int score)
-        {
-            Console.WriteLine("\n=== RESULTADO ===");
-            Console.WriteLine($"Puntuación total: {score}/10");
+      private static void ShowResult(Track track, int score)
+{
+   
+    int percentage = (int)Math.Round((score * 100.0) / GameValidations.MAX_SCORE);
 
-            string rank = GameValidations.GetRank(score);
-            Console.WriteLine($"Rango: {rank}");
+    Console.WriteLine("\n=== RESULTADO ===");
+    Console.WriteLine($"Puntuación total: {percentage}/100");
 
-            Console.WriteLine($"\nDatos reales del tema:");
-            Console.WriteLine($"Subgéneros: {string.Join(", ", track.Subgenres)}");
-            Console.WriteLine($"BPM:        {track.Bpm}");
-            Console.WriteLine($"Main Drop:  {track.MainDrop} s");
-            Console.WriteLine($"Tonalidad:  {track.Key}");
+    string rank = GameValidations.GetRankPercentage(percentage);
+    Console.WriteLine($"Rango: {rank}");
 
-            Console.WriteLine("\nPulsa ENTER para salir...");
-            Console.ReadLine();
-        }
+    Console.WriteLine($"\nDatos reales del tema:");
+    Console.WriteLine($"Subgéneros: {string.Join(", ", track.Subgenres)}");
+    Console.WriteLine($"BPM:        {track.Bpm}");
+    Console.WriteLine($"Main Drop:  {track.MainDrop} s");
+    Console.WriteLine($"Tonalidad:  {track.Key}");
+
+    Console.WriteLine("\nPulsa ENTER para salir...");
+    Console.ReadLine();
+}
+
     }
 }
