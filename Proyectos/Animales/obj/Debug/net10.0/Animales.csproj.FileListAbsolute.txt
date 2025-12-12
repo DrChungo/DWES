@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\bin\Debug\net10.0\Animales.exe
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\bin\Debug\net10.0\Animales.deps.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\bin\Debug\net10.0\Animales.runtimeconfig.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\bin\Debug\net10.0\Animales.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\bin\Debug\net10.0\Animales.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.sourcelink.json
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\refint\Animales.dll
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.pdb
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\Animales.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\clase\2 DAW\DWES\Proyectos\Animales\obj\Debug\net10.0\ref\Animales.dll

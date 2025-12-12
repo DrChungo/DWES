@@ -7,8 +7,16 @@ using CrearApi.Services;
 
 namespace CrearApi.Functions
 {
+    /**
+     * Contiene funciones relacionadas con la creación y envío de canciones a la API (añadir nuevos tracks al JSON).
+     */
     public static class FunctionsAdd
     {
+        /**
+         * Solicita por consola los datos de una canción, genera un ID automáticamente y envía el nuevo track a la API mediante una petición POST.
+         *
+         * @return Task que representa la operación asíncrona de añadido
+         */
         public static async Task AddSongAsync()
         {
             Console.Clear();
@@ -17,13 +25,14 @@ namespace CrearApi.Functions
             var api = new ApiService();
             var tracks = await api.GetAllTracksAsync();
 
+            // Generar ID automático (máximo ID actual + 1)
             int newId = 1;
             if (tracks != null && tracks.Count > 0)
                 newId = tracks.Max(t => t.Id) + 1;
 
             Console.WriteLine($"ID asignado automáticamente: {newId}\n");
 
-            // ======== Datos básicos ========
+            // Datos básicos 
             Console.Write("Título: ");
             string title = ReadNonEmpty();
 
@@ -39,7 +48,7 @@ namespace CrearApi.Functions
             Console.Write("Tonalidad (ej: 'E minor'): ");
             string key = ReadNonEmpty();
 
-            // ======== Artista ========
+            // Artista
             Console.WriteLine("\n--- ARTISTA ---");
             Console.Write("Nombre del artista: ");
             string artistName = ReadNonEmpty();
@@ -50,7 +59,7 @@ namespace CrearApi.Functions
             Console.Write("Año de inicio de actividad (ej: 2020): ");
             int activeSince = ReadInt();
 
-            // ======== ReleaseInfo ========
+            // ReleaseInfo 
             Console.WriteLine("\n--- RELEASE INFO ---");
             Console.Write("Sello (label): ");
             string label = ReadNonEmpty();
@@ -58,7 +67,7 @@ namespace CrearApi.Functions
             Console.Write("Año de lanzamiento: ");
             int year = ReadInt();
 
-            // ======== MixInfo ========
+            //  MixInfo
             Console.WriteLine("\n--- MIX INFO ---");
             Console.Write("Tipo de mix (original, remix, bootleg...): ");
             string mixType = ReadNonEmpty();
@@ -71,14 +80,13 @@ namespace CrearApi.Functions
                 remixer = string.IsNullOrWhiteSpace(remixerInput) ? null : remixerInput;
             }
 
-            // ======== Listas: subgéneros y tags ========
+            // subgéneros y tags 
             Console.WriteLine("\nSubgéneros (separados por comas, ej: hard techno, emotional rave): ");
             var subgenres = ReadStringList();
 
             Console.WriteLine("Tags (separados por comas, ej: emotional, vocal, rave): ");
             var tags = ReadStringList();
 
-            // Construimos el objeto Track
             var newTrack = new Track
             {
                 Id = newId,
@@ -112,7 +120,7 @@ namespace CrearApi.Functions
 
             if (ok)
             {
-                Console.WriteLine("\nCanción añadida correctamente al JSON de la API. ");
+                Console.WriteLine("\nCanción añadida correctamente al JSON de la API.");
                 Console.WriteLine($"ID: {newTrack.Id} | Título: {newTrack.Title}");
             }
             else
@@ -121,7 +129,10 @@ namespace CrearApi.Functions
             }
         }
 
-
+        /**
+         * Lee un texto por consola y obliga a que no esté vacío.
+         * @return Texto introducido por el usuario sin espacios extra
+         */
         private static string ReadNonEmpty()
         {
             while (true)
@@ -134,6 +145,10 @@ namespace CrearApi.Functions
             }
         }
 
+        /**
+         * Lee un número entero por consola y obliga a que sea válido.
+         * @return Número entero introducido por el usuario
+         */
         private static int ReadInt()
         {
             while (true)
@@ -146,6 +161,10 @@ namespace CrearApi.Functions
             }
         }
 
+        /**
+         * Lee una lista de textos separados por comas y devuelve una lista limpia sin elementos vacíos ni espacios sobrantes.
+         * @return Lista de strings procesados (puede estar vacía)
+         */
         private static List<string> ReadStringList()
         {
             string? input = Console.ReadLine();
