@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
     res.setHeader("Content-Type", "application/json");
 
     if (req.url === "/tracks") {
-        const data = fs.readFileSync("Techno.json", "utf8");
+        const data = fs.readFileSync("Node/Techno.json", "utf8");
         res.write(data);
         res.end();
     } else {

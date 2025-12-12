@@ -9,6 +9,8 @@ namespace CrearApi.Functions
 {
     public static class GameFunctions
     {
+
+        //Con esto hacemos que no se repitan las canciones
         private static readonly Random _rng = new Random();
 
         public static async Task RunAsync()
