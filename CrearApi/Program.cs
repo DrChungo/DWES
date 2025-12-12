@@ -8,28 +8,46 @@ namespace CrearApi
     {
         static async Task Main(string[] args)
         {
-            NodeLauncher.StartNodeApi();
-            Console.WriteLine("Iniciando API Node...\n");
-
-            // 👇 Darle un poco de aire a Node para arrancar
-            await Task.Delay(1000);
-
             string? option;
 
             do
             {
-                await GameFunctions.RunAsync();
-
-                Console.WriteLine("\nPulsa 0 para finalizar.");
-                Console.WriteLine("Pulsa cualquier otra tecla para continuar...\n");
+                Console.Clear();
+                Console.WriteLine("=== MENÚ PRINCIPAL ===");
+                Console.WriteLine("1. Jugar");
+                Console.WriteLine("2. Añadir canción");
+                Console.WriteLine("0. Salir");
+                Console.Write("\nElige una opción: ");
+                 Console.Write("\nElige una opción: ");
 
                 option = Console.ReadLine()?.Trim();
-            }
-            while (option != "0");
 
-            NodeLauncher.StopNodeApi();
-            Console.WriteLine("API Node detenida.");
-            Console.WriteLine("Programa finalizado.");
+                switch (option)
+                {
+                    case "1":
+                        await GameFunctions.RunAsync();
+                        break;
+
+                    case "2":
+                        await FunctionsAdd.AddSongAsync();
+                        break;
+
+                    case "0":
+                        Console.WriteLine("Saliendo del programa...");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opción no válida. Intenta de nuevo.");
+                        break;
+                }
+
+                if (option != "0")
+                {
+                    Console.WriteLine("\nPulsa cualquier tecla para volver al menú...");
+                    Console.ReadKey();
+                }
+
+            } while (option != "0");
         }
     }
 }
